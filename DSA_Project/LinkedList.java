@@ -255,6 +255,7 @@ class SingleLinkedList {
                 ptr1.next = ptr.next;
 
                 ptr.next = ptr1;
+                ptr = ptr.next;
             }
             ptr = ptr.next;
         }
@@ -772,6 +773,7 @@ class DoubleLinkedList {
                     (ptr.next).prev = ptr1;
                 }
                 ptr.next = ptr1;
+                ptr = ptr.next;
             }
             ptr = ptr.next;
         }
