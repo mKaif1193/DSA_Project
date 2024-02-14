@@ -379,7 +379,7 @@ public class Array {
                 }
                 A[i + Gap] = min;
             }
-            Gap = Gap / 2;
+            Gap /= 2;
         }
         System.out.println("\nAscending Shell Sort Completed!");
     }
@@ -396,7 +396,7 @@ public class Array {
                 }
                 A[i + Gap] = max;
             }
-            Gap = Gap / 2;
+            Gap /= 2;
         }
         System.out.println("\nDescending Shell Sort Completed!");
     }
